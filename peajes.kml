@@ -1,5 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <StyleMap id="Pal1Icon1">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#NormalPal1Icon1</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#HighlightPal1Icon1</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="NormalPal1Icon1">
+            <IconStyle>
+                <scale>1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon8.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="HighlightPal1Icon1">
+            <IconStyle>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon8.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <StyleMap id="Pal1Icon2">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#NormalPal1Icon2</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#HighlightPal1Icon2</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="NormalPal1Icon2">
+            <IconStyle>
+                <scale>1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon9.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="HighlightPal1Icon2">
+            <IconStyle>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon9.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <StyleMap id="Pal1Icon3">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#NormalPal1Icon3</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#HighlightPal1Icon3</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="NormalPal1Icon3">
+            <IconStyle>
+                <scale>1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="HighlightPal1Icon3">
+            <IconStyle>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <StyleMap id="Pal1Icon4">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#NormalPal1Icon4</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#HighlightPal1Icon4</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="NormalPal1Icon4">
+            <IconStyle>
+                <scale>1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon11.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="HighlightPal1Icon4">
+            <IconStyle>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal3/icon11.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Folder>
+            <name>peaje</name>
             <Placemark>
                 <name>punto_1</name>
                 <description>Peaje 1</description>
@@ -32,4 +139,6 @@
                     <coordinates>-74.802889,4.304432,0</coordinates>
                 </Point>
             </Placemark>
+        </Folder>
+    </Document>
 </kml>
